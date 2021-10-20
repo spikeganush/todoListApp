@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons';
 
-export default itemTask = (props) => {
+export default TaskItem = (props) => {
     return (
         <View style={styles.container}>
             <View style={styles.indexContainer}>
